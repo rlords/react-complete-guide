@@ -3,9 +3,6 @@ import ExpenseDate from './ExpenseDate'
 import './ExpenseItem.css'
 
 function ExpenseItem (props) {
-    const expenseTitle = 'Car Insurance'
-    const expenseAmount = 294.67
-
     return(
         <div className="expense-item">
             <ExpenseDate date={props.date}/>
